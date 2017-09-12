@@ -1,9 +1,9 @@
 # GridchartDemo
 this is a gridchartView
-![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/screenshot.png)
+![image](https://github.com/jsondroid/GridchartDemo/blob/master/screenshots/screenshot.png)
 这是一个网格行的图表，自定义View实现的
 核心代码如下：
-
+'''java
 private void draGrid(Canvas canvas) {
 
         grid_Width = getWidth() - (magin_rigth + magin_left);
@@ -160,4 +160,4 @@ private void draGrid(Canvas canvas) {
 
         int baseLineY = (int) ((rect.centerY()-(rect.height()/6)) - top/2 - bottom/2);//基线中间点的y轴计算公式
         canvas.drawText(text,rect.left+10,baseLineY,textPaint);
-    }
+    }//java'''
